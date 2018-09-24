@@ -1,7 +1,11 @@
 Chat server  
 
-to execute server, compile and run chat.c  
+Execute server:  
+	$ make clean   
+	$ make server  
+	$ make run  
 
-To add Client, use telnet at <server ip>:44444   
+Add Client:
+	$ telnet <ip_addr_of_server> 44444
 
-
+The server uses System V Message Queues internally for communication
